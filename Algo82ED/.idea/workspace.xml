@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a71987-1aeb-4f62-b149-4059e779ce56" name="Default Changelist" comment="" />
+    <list default="true" id="60f26b43-9783-4d58-b3e9-d59b6b14f061" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AlgoED37/src/com/paganini/ed/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgoED40/src/com/paganini/ed/Divisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgoED40/src/com/paganini/ed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OlaMundoED2/src/com/paganini/ed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OlaMundoED2/src/com/paganini/ed/Ola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adaptadora/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adaptadora/out/production/Adaptadora/META-INF/Adaptadora.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/FacadeTeste.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FacadeTeste/FacadeTeste.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/fabricadebugs.uml" beforeDir="false" afterPath="$PROJECT_DIR$/../FacadeTeste/fabricadebugs.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/out/production/FacadeTeste/META-INF/FacadeTeste.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/src/com/fabricadebugs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FacadeTeste/src/com/fabricadebugs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FacadeTeste/src/com/fabricadebugs/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FacadeTeste/src/com/fabricadebugs/Prato.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +32,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Num.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -33,13 +56,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>temp</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,11 +67,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="702" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -65,22 +84,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="EstruturaDados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstruturaDados" type="462c0819:PsiDirectoryNode" />
+              <item name="Algo82ED" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo82ED" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EstruturaDados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstruturaDados" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EstruturaDados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstruturaDados" type="462c0819:PsiDirectoryNode" />
+              <item name="Algo82ED" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo82ED" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EstruturaDados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstruturaDados" type="462c0819:PsiDirectoryNode" />
+              <item name="Algo82ED" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo82ED" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ed" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -94,9 +108,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,9 +122,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.paganini.ed.Main" />
-      <module name="EstruturaDados" />
+      <module name="Algo82ED" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -121,29 +132,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09a71987-1aeb-4f62-b149-4059e779ce56" name="Default Changelist" comment="" />
-      <created>1565553371662</created>
+      <changelist id="60f26b43-9783-4d58-b3e9-d59b6b14f061" name="Default Changelist" comment="" />
+      <created>1565308499097</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565553371662</updated>
-      <workItem from="1565553375359" duration="520000" />
-      <workItem from="1565909177795" duration="5000" />
+      <updated>1565308499097</updated>
+      <workItem from="1565308503972" duration="2651000" />
+      <workItem from="1565897265088" duration="1048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525000" />
+    <option name="totallyTimeSpent" value="3699000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="702" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18504532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21072507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -152,7 +169,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -179,117 +196,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/description.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1046">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Num.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EstruturaDados.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>EstruturaDados</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
