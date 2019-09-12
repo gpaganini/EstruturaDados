@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec94e6eb-3eef-4517-9fd3-6c532c7c6bee" name="Default Changelist" comment="" />
+    <list default="true" id="0906e844-e4eb-4062-8b42-3dd1a4e2f8b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1QOaHYeUWl8J6A69e34XsJJc66L" />
+  <component name="ProjectId" id="1QiNSqEsCtwYTZlYYIVsKu8EGnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -37,9 +37,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gpaganini.Main" />
-      <module name="Algo210ED" />
+      <module name="Algo273ED" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -53,13 +53,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec94e6eb-3eef-4517-9fd3-6c532c7c6bee" name="Default Changelist" comment="" />
-      <created>1567644008488</created>
+      <changelist id="0906e844-e4eb-4062-8b42-3dd1a4e2f8b8" name="Default Changelist" comment="" />
+      <created>1568249459598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567644008488</updated>
-      <workItem from="1567644009738" duration="293000" />
-      <workItem from="1568240363166" duration="597000" />
+      <updated>1568249459598</updated>
+      <workItem from="1568249460864" duration="532000" />
     </task>
     <servers />
   </component>
@@ -71,9 +70,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
