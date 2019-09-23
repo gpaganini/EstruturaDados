@@ -4,6 +4,8 @@ import javax.swing.*;
 
 public class Main {
 
+    //Entrar com um número e imprimir todos seus divisores
+
     public static void main(String[] args) {
         Num n = new Num();
 

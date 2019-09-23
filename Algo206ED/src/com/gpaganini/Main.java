@@ -1,8 +1,12 @@
 package com.gpaganini;
 
 import javax.swing.*;
+import java.rmi.ServerError;
 
 public class Main {
+
+    /*Criar um algoritmo que leia a quantidade de numeros que se deseja digitar para que possa ser
+    impresso o maior e o menor numero digitados*/
 
     public static void main(String[] args) {
         Num n = new Num();
