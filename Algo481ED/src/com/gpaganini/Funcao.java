@@ -1,6 +1,6 @@
 package com.gpaganini;
 
-import jdk.nashorn.internal.ir.ReturnNode;
+//elaborar uma funcao que converta um numero de base 10 para qualquer base entre 2 e 10.
 
 public class Funcao {
     int converte(int nnum, int nbase) {

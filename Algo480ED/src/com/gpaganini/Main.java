@@ -4,6 +4,8 @@ import javax.swing.*;
 
 public class Main {
 
+    //elaborar uma funcao que verifique um numero capicua
+
     public static void main(String[] args) {
         int n, x;
 

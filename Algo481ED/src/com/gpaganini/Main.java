@@ -1,6 +1,5 @@
 package com.gpaganini;
 
-import javax.sound.midi.Soundbank;
 import javax.swing.*;
 
 public class Main {
