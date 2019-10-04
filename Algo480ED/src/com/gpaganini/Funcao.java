@@ -12,7 +12,6 @@ public class Funcao {
             soma = soma * 10 + r;
             num = num / 10;
         }
-
         return soma;
     }
 }

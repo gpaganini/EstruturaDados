@@ -22,12 +22,13 @@ public class Main {
             num1[l] = Integer.parseInt(JOptionPane.showInputDialog(
                     "Digite 2 numero " + l+1 + ":"));
         }
-         c = funcao.produtoInterno(num, num1, 4);
+        c = funcao.produtoInterno(num, num1, 4);
         System.out.println("Vetor A \t Vetor B");
 
         for (l = 0; l < 4; l++) {
             System.out.println(num[l] + "\t\t\t\t" + num1[l]);
         }
         System.out.println("\nProduto interno " + c);
+
     }
 }

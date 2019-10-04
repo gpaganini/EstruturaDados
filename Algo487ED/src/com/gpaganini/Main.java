@@ -3,7 +3,7 @@ package com.gpaganini;
 import javax.swing.*;
 
 public class Main {
-    //criar uma funcao chamada inverte que receba um veotr de numeros inteiros como parametro e seu
+    //criar uma funcao chamada inverte que receba um vetor de numeros inteiros como parametro e seu
     //tamanho. a funcao deve inverter a ordem dos elementos de modo que o 1º vire o ultimo e o 2º
     //vire o penultimo, assim por diante
 

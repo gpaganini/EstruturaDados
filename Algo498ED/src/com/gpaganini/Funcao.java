@@ -15,6 +15,7 @@ public class Funcao {
                 i++;
             }
         }
+
         if (achou == 1) {
             achou = i;
         } else {
