@@ -4,7 +4,7 @@ import com.paganini.ed.ValidaOperacoes;
 
 /**
  * Essa classe serve para realizar a validação e o cálculo de expressões numéricas Pós-fixas e Pré-fixas.
- * @version 1.0
+ * @version 1.1
  * @author Giovani Paganini
  */
 
@@ -106,6 +106,11 @@ public class ValidaPosfixa {
         return pilha.pop();
     }
 
+    /**
+     *
+     * @param s Recebe uma expressão e realiza o calculo
+     * @return Retorna o resultado do cálculo
+     */
     public int calcular(String s) {
         return evaluatePostfix(infixoParaPosfixo(s));
     }
