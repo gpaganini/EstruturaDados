@@ -28,11 +28,11 @@ public class ValidaPrefixa {
 
     }
 
-    static int evaluatePrefix(String resultado) {
+    static int evaluatePrefix(String prefixo) {
         Stack<Integer> pilha = new Stack<>();
 
-        for (int i = resultado.length() -1; i >= 0; i--) {
-            char c = resultado.charAt(i);
+        for (int i = prefixo.length() -1; i >= 0; i--) {
+            char c = prefixo.charAt(i);
 
             /** Se for um operando, empilhar */
             if (Character.isLetterOrDigit(c)) {
