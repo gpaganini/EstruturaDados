@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +51,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.paganini.ed.Main" />
       <module name="CalculadoraInfixa" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -65,11 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570747307876</updated>
       <workItem from="1570747312100" duration="7557000" />
-      <workItem from="1570901976293" duration="18321000" />
+      <workItem from="1570901976293" duration="18615000" />
     </task>
     <servers />
   </component>
