@@ -23,7 +23,7 @@ public class ValidaPosfixa {
             case '/':
                 return 2;
             case '^':
-                return 3;
+                return 2;
         }
         return -1;
     }
@@ -47,29 +47,29 @@ public class ValidaPosfixa {
 
     /**
      *
-     * @param expr recebe a expressão em formato infixo em uma String e converte para a notação pós-fixa
+     * @param infixo recebe a expressão em formato infixo em uma String e converte para a notação pós-fixa
      *             ex: (2+3)*5
      * @return retorna a expressão em notação pós-fixa: 23+5*
      */
-    static String infixoParaPosfixo(String expr) {
+    static String infixoParaPosfixo(String infixo) {
         /** Inicialização de string vazia pra resultado */
-        String resultado = new String ("");
+        String posfixo = new String ("");
 
         /** Inicialização da pilha */
         Stack<Character> pilha = new Stack<>();
 
         /** Scaneia todos os caracteres */
-        for (int i = 0; i < expr.length(); i++) {
-            char c = expr.charAt(i);
+        for (int i = 0; i < infixo.length(); i++) {
+            char c = infixo.charAt(i);
 
             /** Se o caractere escaneado for um operando, empilhar */
             if (Character.isLetterOrDigit(c)) {
-                resultado += c;
+                posfixo += c;
             } else if (c == '(') { /** Se o caractere escaneado for um '(', empilhar */
                 pilha.push(c);
             } else if (c == ')') { /** Se o caractere escaneado for um ')', desempilhar e sair da pilha até algum '(' for encontrado */
                 while (!pilha.isEmpty() && pilha.peek() != '(') {
-                    resultado += pilha.pop();
+                    posfixo += pilha.pop();
                 }
 
                 if (!pilha.isEmpty() && pilha.peek() != '(') {
@@ -82,7 +82,7 @@ public class ValidaPosfixa {
                     if (pilha.peek() == '(') {
                         return "Expressão inválida";
                     }
-                    resultado += pilha.pop();
+                    posfixo += pilha.pop();
                 }
                 pilha.push(c);
             }
@@ -93,23 +93,23 @@ public class ValidaPosfixa {
             if (pilha.peek() == '(') {
                 return "Expressão inválida";
             }
-            resultado += pilha.pop();
+            posfixo += pilha.pop();
         }
-        return resultado;
+        return posfixo;
     }
 
     /**
      *
-     * @param exp Recebe a expressão convertida no formato pós-fixo e realiza sua validação
+     * @param posfixo Recebe a expressão convertida no formato pós-fixo e realiza sua validação
      * @return Retorna o resultado da validação da expressão em formato pós-fixo
      */
-    static int evaluatePostfix (String exp) {
+    static int evaluatePostfix (String posfixo) {
         /** Inicialização da pilha */
         Stack<Integer> pilha = new Stack<>();
 
         /** Scaneia todos caracteres */
-        for (int i = 0; i < exp.length(); i++) {
-            char c = exp.charAt(i);
+        for (int i = 0; i < posfixo.length(); i++) {
+            char c = posfixo.charAt(i);
 
             /** Se for um operando, empilhar */
             if (Character.isLetterOrDigit(c)) {
