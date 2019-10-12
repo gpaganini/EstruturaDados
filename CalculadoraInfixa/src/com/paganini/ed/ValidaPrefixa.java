@@ -1,7 +1,6 @@
 package com.paganini.ed;
 
 import java.util.Stack;
-import com.paganini.ed.ValidaPosfixa;
 
 public class ValidaPrefixa {
 
@@ -11,7 +10,7 @@ public class ValidaPrefixa {
         for (int i = 0; i < posfixo.length(); i++) {
             char c = posfixo.charAt(i);
 
-            if (ValidaPosfixa.isOperador(c)) {
+            if (ValidaOperacoes.isOperador(c)) {
                 String op1 = pilha.peek();
                 pilha.pop();
                 String op2 = pilha.peek();

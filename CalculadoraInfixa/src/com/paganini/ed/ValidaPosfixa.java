@@ -1,5 +1,6 @@
 package com.paganini.ed;
 import java.util.Stack;
+import com.paganini.ed.ValidaOperacoes;
 
 /**
  * Essa classe serve para realizar a validação e o cálculo de expressões numéricas Pós-fixas e Pré-fixas.
@@ -8,43 +9,6 @@ import java.util.Stack;
  */
 
 public class ValidaPosfixa {
-
-    /**
-     *
-     * @param ps Função para validação da precedencia do sinal: quanto maior o numero, maior a precedência
-     * @return Retorna -1 caso não seja validada
-     */
-    static int PrecSinal(char ps) { /**  */
-        switch (ps) {
-            case '+':
-            case '-':
-                return 1;
-            case '*':
-            case '/':
-                return 2;
-            case '^':
-                return 2;
-        }
-        return -1;
-    }
-
-    /**
-     *
-     * @param op Função para verificação dos operadores
-     * @return Retorna true por default
-     */
-    static boolean isOperador(char op) {
-        switch (op) {
-            case '+':
-            case '-':
-            case '*':
-            case '/':
-            case '^':
-                return true;
-        }
-        return false;
-    }
-
     /**
      *
      * @param infixo recebe a expressão em formato infixo em uma String e converte para a notação pós-fixa
@@ -78,7 +42,7 @@ public class ValidaPosfixa {
                     pilha.pop();
                 }
             } else { /** Um operador é encontrado */
-                while (!pilha.isEmpty() && PrecSinal(c) <= PrecSinal(pilha.peek())) {
+                while (!pilha.isEmpty() && ValidaOperacoes.PrecSinal(c) <= ValidaOperacoes.PrecSinal(pilha.peek())) {
                     if (pilha.peek() == '(') {
                         return "Expressão inválida";
                     }
