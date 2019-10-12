@@ -1,7 +1,5 @@
 package com.paganini.ed;
 
-import com.sun.codemodel.internal.JOp;
-
 import javax.swing.*;
 
 public class PilhaAR {
@@ -18,7 +16,7 @@ public class PilhaAR {
 
     void imprimir(int topo) {
         for(int i = topo; i >= 0; i--) {
-            System.out.println("Valor na pilha: " +this.pilha);
+            System.out.println("Valor na pilha na posição " +"["+topo+"]:   " +this.pilha[i]);
         }
     }
 
@@ -52,7 +50,7 @@ public class PilhaAR {
         } else {
             System.out.println("Retirando o valor: "
                     +this.pilha[this.topoPilha + 1]);
-            return (this.pilha[this.topoPilha+ 1]);
+            return (this.pilha[this.topoPilha + 1]);
         }
 
     }
@@ -65,6 +63,7 @@ public class PilhaAR {
                     "Pilha vazia. Erro -998");
             return(-998);
         } else {
+            System.out.println("O valor no topo da pilha é " +this.topoPilha+1); //TODO resto do codigo
             return (this.pilha[this.topoPilha]);
         }
     }
