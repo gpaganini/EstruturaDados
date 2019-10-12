@@ -118,6 +118,7 @@ public class ValidaPosfixa {
                 int val1 = pilha.pop();
                 int val2 = pilha.pop();
 
+                /** Realizar o cálculo da expressão de acordo com o operador encontrado */
                 switch (c) {
                     case '+':
                         pilha.push(val2 + val1);
