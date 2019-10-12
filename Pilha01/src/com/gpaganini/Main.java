@@ -28,6 +28,10 @@ public class Main {
                     topo = pilha.push(topo,7);
                     topo = pilha.push(topo,3);
                     topo = pilha.push(topo,5);
+                    topo = pilha.push(topo,6);
+                    topo = pilha.push(topo,4);
+                    topo = pilha.push(topo,8);
+                    topo = pilha.push(topo,9);
                     topo = pilha.push(topo,2);
                 break;
 
@@ -37,7 +41,6 @@ public class Main {
 
                 case 3:
                     valor = pilha.top(topo);
-                    pilha.imprimir(topo);
                 break;
 
                 case 4:

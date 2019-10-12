@@ -14,7 +14,6 @@ public class PilhaAR {
         return (this.topopilha);
     }
 
-
     //retornar o tamanho da pilha
     int tamanho(){
         return(this.topopilha+1);
@@ -23,7 +22,6 @@ public class PilhaAR {
     //imprimir pilha e mostrar posição do valor;
     void imprimir (int topo){
         for(int i=topo;i>=0;i--){
-            System.out.println("IMPRESSÃO EM PROGRESSO...");
             System.out.println("Valor na Pilha ["+i+"]: " +this.pilha[i]);
         }
     }
