@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class ValidaPosfixa {
 
-    static int PrecSinal(char ch) {
-        switch (ch) {
+    static int PrecSinal(char ps) { //Função para validação da precedencia do sinal: quanto maior o numero, maior a precedencia
+        switch (ps) {
             case '+':
             case '-':
                 return 1;
@@ -15,7 +15,6 @@ public class ValidaPosfixa {
             case '^':
                 return 3;
         }
-
         return -1;
     }
 
@@ -31,34 +30,69 @@ public class ValidaPosfixa {
         return false;
     }
 
+    static int evaluatePostfix (String exp) {
+        Stack<Integer> piya = new Stack<>(); //Inicialização da pilha
+
+        for (int i = 0; i < exp.length(); i++) {
+            char c = exp.charAt(i);
+
+            if (Character.isLetterOrDigit(c)) {
+                piya.push(c - '0');
+            } else {
+                int val1 = piya.pop();
+                int val2 = piya.pop();
+
+                switch (c) {
+                    case '+':
+                        piya.push(val2 + val1);
+                        break;
+                    case '-':
+                        piya.push(val2 - val1);
+                        break;
+                    case '*':
+                        piya.push(val2 * val1);
+                        break;
+                    case '/':
+                        piya.push(val2 / val1);
+                        break;
+                    case '^':
+                        piya.push((int) Math.pow(val2, val1));
+                        break;
+                }
+            }
+        }
+        return piya.pop();
+    }
 
     static String infixoParaPosfixo(String expr) {
+        //inicialização de string vazia pra resultado
         String resultado = new String ("");
 
+        //inicialização da pilha
         Stack<Character> pilha = new Stack<>();
-        //PilhaAR pilha = new PilhaAR();
 
         for (int i = 0; i < expr.length(); i++) {
             char c = expr.charAt(i);
 
+            //se o caractere escaneado for um operando, empilhar
             if (Character.isLetterOrDigit(c)) {
                 resultado += c;
-            } else if (c == '(') {
+            } else if (c == '(') { //se o caractere escaneado for um '(' empilhar
                 pilha.push(c);
-            } else if (c == ')') {
+            } else if (c == ')') { //se o caractere escaneado for um ')' desempilhar e sair da pilha até algum '(' for encontrado
                 while (!pilha.isEmpty() && pilha.peek() != '(') {
                     resultado += pilha.pop();
                 }
 
                 if (!pilha.isEmpty() && pilha.peek() != '(') {
-                    return "Invalid Expression";
+                    return "Expressão inválida";
                 } else {
                     pilha.pop();
                 }
-            } else {
+            } else { //um operador é encontrado
                 while (!pilha.isEmpty() && PrecSinal(c) <= PrecSinal(pilha.peek())) {
                     if (pilha.peek() == '(') {
-                        return "Invalid Expression";
+                        return "Expressão inválida";
                     }
                     resultado += pilha.pop();
                 }
@@ -66,12 +100,14 @@ public class ValidaPosfixa {
             }
         }
 
+        //desempilhar todos os operadores da pilha
         while (!pilha.isEmpty()) {
             if (pilha.peek() == '(') {
-                return "Invalid Expression";
+                return "Expressão inválida";
             }
             resultado += pilha.pop();
-        } return resultado;
+        }
+        return resultado;
     }
 
 
