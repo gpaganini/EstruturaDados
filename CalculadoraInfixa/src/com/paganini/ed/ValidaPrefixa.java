@@ -1,19 +1,75 @@
-/*
 package com.paganini.ed;
 
+import java.util.Stack;
+import com.paganini.ed.ValidaPosfixa;
+
 public class ValidaPrefixa {
-    static int PrecSinal(char ch) {
-        switch (ch) {
-            case '+':
-            case '-':
-                return 1;
-            case '*':
-            case '/':
-                return 2;
-            case '^':
-                return 3;
+
+    static String posfixoParaPrefixo(String posfixo) {
+        Stack<String> pilha = new Stack<>();
+
+        for (int i = 0; i < posfixo.length(); i++) {
+            char c = posfixo.charAt(i);
+
+            if (ValidaPosfixa.isOperador(c)) {
+                String op1 = pilha.peek();
+                pilha.pop();
+                String op2 = pilha.peek();
+                pilha.pop();
+
+                String temp = c + op2 + op1;
+
+                pilha.push(temp);
+            } else {
+               pilha.push(c + "");
+            }
         }
-        return -1;
+        return pilha.peek();
+
+    }
+
+    static int evaluatePrefix(String resultado) {
+        Stack<Integer> pilha = new Stack<>();
+
+        for (int i = resultado.length() -1; i >= 0; i--) {
+            char c = resultado.charAt(i);
+
+            /** Se for um operando, empilhar */
+            if (Character.isLetterOrDigit(c)) {
+                pilha.push(c - '0');
+            } else { /** Se for um operador, desempilhar dois elementos da pilha e aplicar o operador */
+                int val1 = pilha.peek();
+                pilha.pop();
+                int val2 = pilha.peek();
+                pilha.pop();
+
+                /** Realizar o cálculo da expressão de acordo com o operador encontrado */
+                switch (c) {
+                    case '+':
+                        pilha.push(val1 + val2);
+                        break;
+                    case '-':
+                        pilha.push(val1 - val2);
+                        break;
+                    case '*':
+                        pilha.push(val1 * val2);
+                        break;
+                    case '/':
+                        pilha.push(val1 / val2);
+                        break;
+                    case '^':
+                        pilha.push((int) Math.pow(val1, val2));
+                        break;
+                }
+            }
+        }
+
+        /** Retorna resultado da expressão */
+        return pilha.peek();
+    }
+
+    public int calcular(String s) {
+        return evaluatePrefix(posfixoParaPrefixo(s));
     }
 }
-*/
+
