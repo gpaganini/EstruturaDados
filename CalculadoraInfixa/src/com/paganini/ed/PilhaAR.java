@@ -2,6 +2,9 @@ package com.paganini.ed;
 
 import javax.swing.*;
 
+/**
+ * @deprecated
+ */
 public class PilhaAR {
     int[] pilha = new int [1000]; //pilha;
     int topopilha=-1; //iniciação do topo da pilha;
