@@ -3,7 +3,7 @@ import java.util.Stack;
 import com.paganini.ed.ValidaOperacoes;
 
 /**
- * Essa classe serve para realizar a validação e o cálculo de expressões numéricas Pós-fixas e Pré-fixas.
+ * Essa classe serve para realizar a validação e o cálculo de expressões numéricas Pós-fixas.
  * @version 1.1
  * @author Giovani Paganini
  */

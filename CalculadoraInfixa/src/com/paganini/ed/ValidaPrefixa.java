@@ -2,6 +2,11 @@ package com.paganini.ed;
 
 import java.util.Stack;
 
+/**
+ * Essa classe serve para realizar a validação e o cálculo de expressões numéricas Pré-fixas.
+ * @version 1.1
+ * @author Giovani Paganini
+ */
 public class ValidaPrefixa {
 
     /**

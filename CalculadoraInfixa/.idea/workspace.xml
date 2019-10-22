@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="" />
+    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/PilhaAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/PilhaAR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaOperacoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaOperacoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPosfixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPosfixa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPrefixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPrefixa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1570747307876</updated>
       <workItem from="1570747312100" duration="7557000" />
-      <workItem from="1570901976293" duration="18615000" />
+      <workItem from="1570901976293" duration="18647000" />
+      <workItem from="1570987054327" duration="271000" />
+      <workItem from="1571179032900" duration="2195000" />
     </task>
     <servers />
   </component>
@@ -85,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

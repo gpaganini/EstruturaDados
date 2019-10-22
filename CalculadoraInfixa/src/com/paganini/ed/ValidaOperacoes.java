@@ -1,5 +1,11 @@
 package com.paganini.ed;
 
+
+/**
+ * Essa classe serve para realizar a validação de operadores e precedencia de sinais.
+ * @version 1.1
+ * @author Giovani Paganini
+ */
 public class ValidaOperacoes {
     /**
      *
@@ -13,7 +19,6 @@ public class ValidaOperacoes {
                 return 1;
             case '*':
             case '/':
-                return 2;
             case '^':
                 return 2;
         }
