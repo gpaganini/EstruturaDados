@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/PilhaAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/PilhaAR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaOperacoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaOperacoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPosfixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPosfixa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPrefixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculadoraInfixa/com/paganini/ed/ValidaPrefixa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +76,7 @@
       <workItem from="1570901976293" duration="18647000" />
       <workItem from="1570987054327" duration="271000" />
       <workItem from="1571179032900" duration="2195000" />
+      <workItem from="1571781972218" duration="143000" />
     </task>
     <servers />
   </component>
