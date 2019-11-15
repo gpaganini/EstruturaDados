@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a01c245-624c-49ae-b90f-f531ea714bad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/HanoiIterativo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fatorial1/com/paganini/ed/FAT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fatorial1/com/paganini/ed/FAT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fatorial1/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fatorial1/com/paganini/ed/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/FAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/FAT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci1/out/production/Fibonacci1/com/paganini/ed/Fibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci1/out/production/Fibonacci1/com/paganini/ed/Fibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci1/out/production/Fibonacci1/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci1/out/production/Fibonacci1/com/paganini/ed/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci1/src/com/paganini/ed/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci1/src/com/paganini/ed/Fibo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fibonacci1/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci1/src/com/paganini/ed/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/TorresDeHanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/TorresDeHanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/TorresDeHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/TorresDeHanoi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +94,8 @@
       <updated>1570749934525</updated>
       <workItem from="1570749937768" duration="1724000" />
       <workItem from="1571874142157" duration="1801000" />
+      <workItem from="1572386060588" duration="2858000" />
+      <workItem from="1573166264554" duration="409000" />
     </task>
     <servers />
   </component>
@@ -96,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

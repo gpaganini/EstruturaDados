@@ -14,7 +14,8 @@ public class Main {
         n = Integer.parseInt(JOptionPane.showInputDialog("Digite o número de discos"));
 
         long start = System.currentTimeMillis();
-        torresDeHanoi.hanoi(n, 1,3,2);
+        //torresDeHanoi.hanoi(n, 1,3,2);
+        HanoiIterativo.hanoi(n);
         long finish = System.currentTimeMillis();
         long elapsed = finish - start;
 
@@ -23,9 +24,5 @@ public class Main {
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss:SS");
         dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
         System.out.println("Tempo de execução: " +dateFormat.format(new Date(elapsed)));
-
-       // String display = String.format("%02d:%02d:%02d:%03d", elapsed / 3600000, (elapsed / 1000) / 60, (elapsed / 1000) % 60, (elapsed % 60));
-       // System.out.println("Tempo de execução: " +display);
-
     }
 }

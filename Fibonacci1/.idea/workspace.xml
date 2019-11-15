@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a0f2f90-bbce-4dad-accb-2b2530244206" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/HanoiIterativo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fatorial1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fatorial1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fatorial1/out/production/Fatorial1/com/paganini/ed/FAT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fatorial1/out/production/Fatorial1/com/paganini/ed/FAT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fatorial1/out/production/Fatorial1/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fatorial1/out/production/Fatorial1/com/paganini/ed/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fatorial1/src/com/paganini/ed/FAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fatorial1/src/com/paganini/ed/FAT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fatorial1/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fatorial1/src/com/paganini/ed/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fibonacci1/com/paganini/ed/Fibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fibonacci1/com/paganini/ed/Fibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fibonacci1/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fibonacci1/com/paganini/ed/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/Fibo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/TorresDeHanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/out/production/Hanoi/com/gpaganini/TorresDeHanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/TorresDeHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hanoi/src/com/gpaganini/TorresDeHanoi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +66,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.paganini.ed.Main" />
       <module name="Fibonacci1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -69,11 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,6 +89,7 @@
       <updated>1570753895062</updated>
       <workItem from="1570753898971" duration="742000" />
       <workItem from="1571875001276" duration="923000" />
+      <workItem from="1572386203013" duration="3723000" />
     </task>
     <servers />
   </component>
@@ -98,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

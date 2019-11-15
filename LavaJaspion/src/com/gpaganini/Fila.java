@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Fila {
-    List<Carro> carros = new ArrayList<>();
+    ArrayList<Carro> carros = new ArrayList<>();
+    protected Ordenador ordenator;
 
     void insere(Carro C){
         this.carros.add(C);
@@ -18,5 +19,38 @@ public class Fila {
         return this.carros.isEmpty();
     }
 
+    /*public void setOrdemDaFila(OrdemDaFila ordem) {
+        ordenator = null;
+        switch (ordem) {
+            case porPlaca:
+                ordenator = new OrderByPlaca();
+                break;
+            default:
+                break;
+        }
+    }*/
 
+    public void mostrarLista() {
+        ArrayList<Carro> novaFila = new ArrayList<>();
+        novaFila = carros;
+        for (Carro carro : novaFila) {
+            System.out.println("Ano: " + carro.Ano
+                    + "\nModelo: " + carro.Modelo
+                    + "\nPlaca: " + carro.Placa
+                    + "\n");
+        }
+    }
+
+    public void mostrarListaOrdenada() {
+        ordenator = new OrderByPlaca();
+        ArrayList<Carro> novaFila = new ArrayList<>();
+        novaFila = ordenator.ordenarCarros(carros);
+
+        for (Carro carro : novaFila) {
+            System.out.println("Ano: " + carro.Ano
+            + "\nModelo: " + carro.Modelo
+            + "\nPlaca: " + carro.Placa
+            + "\n");
+        }
+    }
 }

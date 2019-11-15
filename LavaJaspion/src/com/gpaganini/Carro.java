@@ -1,6 +1,6 @@
 package com.gpaganini;
 
-public class Carro {
+class Carro {
     String Placa;
     String Modelo;
     int Ano;
