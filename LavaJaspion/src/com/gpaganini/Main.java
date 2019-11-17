@@ -9,8 +9,8 @@ public class Main {
 
 	    Carro A = new Carro();
         Carro B = new Carro();
-        Carro C = new Carro();
         Carro D = new Carro();
+        Carro C = new Carro();
         Carro E = new Carro();
         Carro F = new Carro();
         Carro G = new Carro();

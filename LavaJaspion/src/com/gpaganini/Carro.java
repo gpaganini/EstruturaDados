@@ -2,6 +2,10 @@ package com.gpaganini;
 
 class Carro {
     String Placa;
-    String Modelo;
-    int Ano;
+
+    public Carro(int ano, String modelo, String placa) {
+        this.Ano = ano;
+        this.Modelo = modelo;
+        this.Placa = placa;
+    }
 }
