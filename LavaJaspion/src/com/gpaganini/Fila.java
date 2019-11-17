@@ -7,11 +7,6 @@ public class Fila {
     ArrayList<Carro> carros = new ArrayList<>();
     protected Ordenador ordenator;
 
-    public void adicionarCarro(int ano, String modelo, String placa) {
-        carros.add(new Carro(ano, modelo, placa));
-    }
-
-
     void insere(Carro C){
         this.carros.add(C);
     }

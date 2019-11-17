@@ -9,8 +9,8 @@ public class Main {
 
 	    Carro A = new Carro();
         Carro B = new Carro();
-        Carro D = new Carro();
         Carro C = new Carro();
+        Carro D = new Carro();
         Carro E = new Carro();
         Carro F = new Carro();
         Carro G = new Carro();
@@ -57,7 +57,7 @@ public class Main {
 
         I.Ano = 2003;
         I.Modelo = "206";
-        I.Placa = "MKS-7839";
+        I.Placa = "JTK-1089";
 
         J.Ano = 2007;
         J.Modelo = "Celta";
