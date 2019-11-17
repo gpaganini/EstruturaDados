@@ -62,6 +62,7 @@ public class ListaDupla {
             Celula nova = new Celula(anterior.getProxima(), elemento);
             nova.setAnterior(anterior);
             anterior.setProxima(nova);
+            proxima.setProxima(nova);
             proxima.setAnterior(nova);
             this.totalDeElementos++;
         }
@@ -123,11 +124,11 @@ public class ListaDupla {
             }
             atual = atual.getProxima();
         }
-        return false;
+        return (false);
     }
 
     int tamanho() {
-        return this.totalDeElementos;
+        return (this.totalDeElementos);
     }
 
     void EsvaziaLista() {
@@ -146,7 +147,7 @@ public class ListaDupla {
             for (int i = 0; i < this.totalDeElementos -1; i++) {
                 builder.append(atual.getElemento());
                 builder.append(", ");
-                atual.getProxima();
+                atual = atual.getProxima();
             }
 
             builder.append(atual.getElemento());

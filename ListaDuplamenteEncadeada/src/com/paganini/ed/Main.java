@@ -11,7 +11,7 @@ public class Main {
         System.out.println(lista.Imprimir());
         System.out.println("=================================================");
 
-        /*lista.EsvaziaLista();
+        lista.EsvaziaLista();
         System.out.println(lista.Imprimir());
         System.out.println("=================================================");
 
@@ -19,6 +19,6 @@ public class Main {
         lista.Adiciona(0,"Paulo");
         lista.Adiciona(1,"Camila");
         System.out.println(lista.Imprimir());
-        System.out.println("=================================================");*/
+        System.out.println("=================================================");
     }
 }
