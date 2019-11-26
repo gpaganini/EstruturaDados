@@ -88,80 +88,80 @@ public class Main {
         naoLavada.insere(C);
         naoLavada.insere(D);
 
-        Carro teste = new Carro();
-        teste = naoLavada.remove();
-        A = (Carro)teste;
-        lavada.insere(teste);
+        Carro carro = new Carro();
+        carro = naoLavada.remove();
+        A = (Carro)carro;
+        lavada.insere(carro);
 
         naoLavada.insere(E);
         naoLavada.insere(F);
         naoLavada.insere(G);
         naoLavada.insere(H);
 
-        teste = naoLavada.remove();
-        B = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        B = (Carro)carro;
+        lavada.insere(carro);
 
         naoLavada.insere(I);
         naoLavada.insere(J);
         naoLavada.insere(K);
         naoLavada.insere(L);
 
-        teste = naoLavada.remove();
-        C = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        C = (Carro)carro;
+        lavada.insere(carro);
 
         naoLavada.insere(M);
         naoLavada.insere(N);
         naoLavada.insere(O);
 
-        teste = naoLavada.remove();
-        D = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        D = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        E = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        E = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        F = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        F = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        G = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        G = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        H = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        H = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        I = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        I = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        J = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        J = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        K = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        K = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        L = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        L = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        M = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        M = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        N = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        N = (Carro)carro;
+        lavada.insere(carro);
 
-        teste = naoLavada.remove();
-        O = (Carro)teste;
-        lavada.insere(teste);
+        carro = naoLavada.remove();
+        O = (Carro)carro;
+        lavada.insere(carro);
 
         System.out.println("============================================="
         + "\nFila Lavada ordenada por Placa:");
