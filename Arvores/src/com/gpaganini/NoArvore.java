@@ -1,20 +1,47 @@
 package com.gpaganini;
 
-class NoArvore {
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class NoArvore {
     int info;
     NoArvore direita = null;
     NoArvore esquerda = null;
 
+    public void writeFile(NoArvore tree) {
+        FileOutputStream outputStream = null;
+        PrintWriter printWriter = null;
 
-    private void Imp_Cres(NoArvore tree) {
-        if(tree != null) {
-            Imp_Cres(tree.esquerda);
-            System.out.println(tree.info);
-            Imp_Cres(tree.direita);
+        try {
+            outputStream = new FileOutputStream("Arve.txt");
+            printWriter = new PrintWriter(outputStream);
+
+            write(tree, printWriter);
+            printWriter.flush();
+        } catch (IOException e) {
+            System.out.println("ERRO");
+            printWriter.close();
         }
     }
 
-    private NoArvore Search(NoArvore tree, int valor) {
+    public void write(NoArvore tree, PrintWriter w) {
+        if(tree != null) {
+            write(tree.esquerda, w);
+            w.println(tree.info);
+            write(tree.direita, w);
+        }
+    }
+
+    void Imp_Cres(NoArvore tree, PrintWriter w) {
+        if(tree != null) {
+            Imp_Cres(tree.esquerda, w);
+            w.println(tree.info);
+            Imp_Cres(tree.direita, w);
+        }
+    }
+
+    NoArvore Search(NoArvore tree, int valor) {
         if (tree == null) {
             return (null);
         } else if (tree.info > valor) {
@@ -26,7 +53,7 @@ class NoArvore {
         }
     }
 
-    private NoArvore InsereRaiz(NoArvore tree, int valor) {
+    NoArvore InsereRaiz(NoArvore tree, int valor) {
         tree.info = valor;
         tree.direita = null;
         tree.esquerda = null;
@@ -34,7 +61,7 @@ class NoArvore {
         return tree;
     }
 
-    private NoArvore Insere(NoArvore tree, int valor) {
+    NoArvore Insere(NoArvore tree, int valor) {
         if (tree == null) {
             tree = new NoArvore();
             tree.info = valor; tree.direita = null; tree.esquerda = null;
@@ -47,7 +74,7 @@ class NoArvore {
         return tree;
     }
 
-    private NoArvore Retira(NoArvore tree, int valor) {
+    NoArvore Retira(NoArvore tree, int valor) {
         if (tree == null) {
             System.out.println("Elemento não encontrado...:" +valor);
             return null;
