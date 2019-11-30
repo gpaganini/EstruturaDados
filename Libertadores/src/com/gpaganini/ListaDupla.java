@@ -1,4 +1,4 @@
-package com.paganini.ed;
+package com.gpaganini;
 
 public class ListaDupla {
     Celula Primeira;
@@ -32,7 +32,7 @@ public class ListaDupla {
             this.Ultima = nova;
         } else {
             Celula nova = new Celula(this.Primeira, elemento);
-            //this.Primeira.setAnterior(nova);
+            this.Primeira.setAnterior(nova);
             this.Primeira = nova;
         }
         this.totalDeElementos++;
@@ -45,6 +45,7 @@ public class ListaDupla {
         } else {
             Celula nova = new Celula(elemento);
             this.Ultima.setProxima(nova);
+            nova.setAnterior(this.Ultima);
             this.Ultima = nova;
             this.totalDeElementos++;
         }
@@ -58,8 +59,11 @@ public class ListaDupla {
             this.Adiciona(elemento);
         } else {
             Celula anterior = this.PegaCelula(pos - 1);
+            Celula proxima = anterior.getProxima();
             Celula nova = new Celula(anterior.getProxima(), elemento);
+            nova.setAnterior(anterior);
             anterior.setProxima(nova);
+            proxima.setAnterior(nova);
             this.totalDeElementos++;
         }
     }
@@ -105,7 +109,6 @@ public class ListaDupla {
                 Celula anterior = this.PegaCelula(pos -1);
                 Celula atual = anterior.getProxima();
                 Celula proxima = atual.getProxima();
-
                 anterior.setProxima(proxima);
                 proxima.setAnterior(anterior);
                 this.totalDeElementos--;

@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb1db49a-e5a2-43c0-9045-34eb5bafc12f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ListaEncadeadaSimples1/src/com/paganini/ed/Celula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListaEncadeadaSimples1/src/com/paganini/ed/ListaLigada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ListaEncadeadaSimples1/src/com/paganini/ed/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/Libertadores.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/Celula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/ListaDupla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/Torcedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LavaJaspion/src/com/gpaganini/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/out/production/ListaDuplamenteEncadeada/com/paganini/ed/ListaDupla.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/out/production/ListaDuplamenteEncadeada/com/paganini/ed/ListaDupla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/out/production/ListaDuplamenteEncadeada/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/out/production/ListaDuplamenteEncadeada/com/paganini/ed/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/src/com/paganini/ed/ListaDupla.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/src/com/paganini/ed/ListaDupla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaDuplamenteEncadeada/src/com/paganini/ed/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,46 +28,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1202">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,11 +47,6 @@
         <option value="$PROJECT_DIR$/../Sequencia01/Sequencia01.iml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1366" />
-    <option name="height" value="702" />
   </component>
   <component name="ProjectId" id="1S75pJ4YTGhcUkxKgtNvdg999Au" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,47 +128,9 @@
       <workItem from="1571781972218" duration="143000" />
       <workItem from="1571955526399" duration="45000" />
       <workItem from="1571961386863" duration="690000" />
+      <workItem from="1575133254395" duration="610000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="735000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="702" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -214,12 +141,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -240,38 +161,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CalculadoraInfixa.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaPrefixa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1202">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaOperacoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/paganini/ed/ValidaPosfixa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
