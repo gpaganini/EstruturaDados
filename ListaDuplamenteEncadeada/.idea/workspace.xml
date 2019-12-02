@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd576c2b-d0b9-436f-a2f7-8edf72c156a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ordenacao/src/com/gpaganini/Ordenadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/Libertadores.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/Celula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/ListaDupla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libertadores/src/com/gpaganini/Torcedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraInfixa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculadoraInfixa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListaDuplamenteEncadeada/com/paganini/ed/ListaDupla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaDuplamenteEncadeada/com/paganini/ed/ListaDupla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListaDuplamenteEncadeada/com/paganini/ed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaDuplamenteEncadeada/com/paganini/ed/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/ListaDupla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/ListaDupla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/paganini/ed/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +99,7 @@
       <workItem from="1574020454658" duration="1561000" />
       <workItem from="1574118481899" duration="37000" />
       <workItem from="1574383100250" duration="229000" />
+      <workItem from="1575123582917" duration="9274000" />
     </task>
     <servers />
   </component>

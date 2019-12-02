@@ -15,9 +15,26 @@ public class Main {
         System.out.println(lista.Imprimir());
         System.out.println("=================================================");
 
-        lista.Adiciona("Rafael");
-        lista.Adiciona(0,"Paulo");
-        lista.Adiciona(1,"Camila");
+        lista.AdicionaNoComeco("GOLD");
+        lista.AdicionaNoComeco("GOLD");
+        lista.AdicionaNoComeco("GOLD");
+        lista.Adiciona("IRON");
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona("IRON");
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona("IRON");
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona("IRON");
+
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona("IRAO");
+        lista.AdicionaNoComeco("GOLD");
+        lista.Adiciona("IRON");
+        lista.AdicionaNoComeco("GOLD");
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona(5, "SILVER");
+        lista.Adiciona(34, "pika");
+
         System.out.println(lista.Imprimir());
         System.out.println("=================================================");
     }
